@@ -128,7 +128,7 @@ p {
     display: flex;
     position: sticky;
     top: 0;
-    background: #333333;
+    background: #000000;
     color: #ffffff;
     justify-content: space-between;
     z-index: 1;
