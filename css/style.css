@@ -8,6 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
+    overflow-x: hidden;
 }
 
 a {
@@ -33,7 +34,7 @@ p {
 }
 
 .text-primary {
-    color: #93cb52;
+    color: #1DBA0F;
 }
 
 .bg-primary {
@@ -149,6 +150,8 @@ p {
 #navbar ul li a:hover {
     background: #93cb52;
     border-radius: 25px;
+    transition: all;
+    transition-duration: 1s;
 }
 
 
@@ -300,4 +303,59 @@ p {
 #contact .contact-form textarea {
     width: 100%;
     padding: 0.5rem;
+}
+
+
+/* Footer */
+
+#main-footer {
+    background: #000;
+    color: #ffffff;
+    height: 5rem;
+}
+
+#main-footer .footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 5rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#main-footer .footer-content .social .fab {
+    /* margin-right: 1rem; */
+    border: 2px #ffffff solid;
+    border-radius: 50%;
+    height: 43px;
+    width: 45px;
+    line-height: 33px;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+#main-footer .footer-content .social .fab:hover {
+    background-color: #b30000;
+}
+
+#main-footer .footer-content .social a {
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    #main-footer {
+        height: 7rem;
+    }
+    #main-footer .footer-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 1rem;
+        height: 5rem;
+    }
 }
