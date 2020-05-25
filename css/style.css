@@ -48,7 +48,7 @@ p {
 }
 
 .bg-dark {
-    background: #333;
+    background: #000000;
     color: #ffffff;
 }
 
@@ -155,21 +155,16 @@ p {
 }
 
 
-/* .logo {
-    color: #71b436; 
-}
-*/
-
-
 /* Showcase */
 
 #showcase {
     height: 100vh;
     color: #ffffff;
+    background-color: #000;
 }
 
 .fullscreen-bg {
-    background-color: #ffffff;
+    background-color: #000000;
     top: 0;
     right: 0;
     bottom: 0;
@@ -177,11 +172,11 @@ p {
     overflow: hidden;
     height: 100vh;
     width: 100vw;
-    z-index: -1;
+    z-index: -100;
 }
 
 .fullscreen-bg_video {
-    /* background-color: #ffffff; */
+    /* background-color: #000000; */
     position: absolute;
     top: 0;
     left: 0;
@@ -223,7 +218,7 @@ p {
     padding: 0 2rem;
     /* Overlay */
     position: absolute;
-    top: 65px;
+    top: 53px;
     left: 0;
     right: 0;
     bottom: 0;
