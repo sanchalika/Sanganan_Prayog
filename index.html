@@ -11,22 +11,22 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin="">
     </script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/fb55b35c3b.js" crossorigin="anonymous"></script>
-
     <title>Sanganan Prayog | HOME </title>
 </head>
 
 <body id="home">
     <!-- Navbar -->
-    <nav id="navbar">
+    <nav id="navbar" class="bg-dark">
         <h1 class="logo text-primary">
             <span>
-                <i class="fas fa-space-shuttle"></i> SANGANAN </span>
+                <i class="fas fa-satellite"></i>  SANGANAN </span>
             <span>PRAYOG</span>
         </h1>
         <ul>
             <li><a href="#home">Home</a></li>
+            <li><a href="#who">Blog</a></li>
             <li><a href="#what">What</a></li>
             <li><a href="#who">Who</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -40,6 +40,9 @@
             </video>
         </div>
         <div class="showcase-content">
+            <div class="logo_sp">
+                <img id="logo_img" src="./img/sangananprayog.png" alt="Sanganan Prayog Team">
+            </div>
             <h1 class="l-heading">
                 The Sky is The Limit
             </h1>
@@ -96,16 +99,16 @@
                 <li><span class="text-primary">FACULTY ADVISOR: </span> Dr. Mrinmoy Majumder </li>
                 <li><span class="text-primary">PRESIDENT: </span> Sri Ganesh </li>
                 <li><span class="text-primary">VICE-PRESIDENT: </span> Antaripa Saha </li>
-                <li><span class="text-primary">GENERAL SECRETARY: </span> Manohar Lima Das</li>
-                <li class="text-primary">STUDENT ADVISOR
+                <li><span class="text-primary">GENERAL SECRETARY: </span> Manohar </li>
+                <!-- <li class="text-primary">STUDENT ADVISOR
                     <li> Prakash Devapujyala</li>
                     <li> Bharath Bhusan</li>
-                </li>
+                </li> -->
             </ul>
         </div>
     </section>
     <!-- Section: Clients -->
-    <section id="clients" class="py-1">
+    <section id="clients" class="bg-dark py-1">
         <div class="container">
             <h2 class="m-heading text-center">
                 <span class="text-primary">SUPPORTING</span> MEMBERS
@@ -146,7 +149,6 @@
         <div id="map"></div>
     </section>
     <!-- Footer -->
-    <!-- <footer id="main-footer" class="bg-dark text-center py-1"> -->
     <footer id="main-footer">
         <div class="footer-content container">
             <p>Copyright &copy; SANGANAN PRAYOG. All Rights Reserved, 2020- Present</p>
@@ -160,9 +162,6 @@
     </footer>
     <!-- Local JS -->
     <script src="/js/main.js"></script>
-    <!-- JQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
-    </script>
     <!-- Google Maps
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0JOI8skGk-r711vGKOjHydUiSO_oprDg&callback=initMap" async defer></script> -->
 </body>

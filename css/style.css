@@ -163,6 +163,20 @@ p {
     background-color: #000;
 }
 
+.logo_sp {
+    /* background-image: url('../img/sangananprayog.png'); */
+    text-align: center;
+    height: 170px;
+    width: 240px;
+    z-index: 100;
+}
+
+#logo_img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 .fullscreen-bg {
     background-color: #000000;
     top: 0;
