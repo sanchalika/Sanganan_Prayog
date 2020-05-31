@@ -30,7 +30,7 @@ $('#navbar a, .btn').on('click', function(event) {
 // Smooth Scrolling
 $(document).ready(function() {
     // Add smooth scrolling to all links
-    $("#navbar a").on('click', function(event) {
+    $("#navbar a, .btn").on('click', function(event) {
 
         if (this.hash !== "") {
             // Prevent default anchor click behavior
