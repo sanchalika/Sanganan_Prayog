@@ -47,14 +47,15 @@
     }
     #who .who-img {
         height: 200px;
-        width: 100vw;
+        width: 90vw;
     }
     #clients .items img {
         width: 80%;
     }
-    #clients .items div:last-child {
+   /* #clients .items div:last-child {
         display: none;
     }
+    */
     #contact {
         /* flex-direction: column; */
         display: block;
