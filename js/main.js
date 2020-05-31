@@ -1,3 +1,20 @@
+var app = document.getElementById('lead');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('"If you want to shine like a sun, first burn like a sun." <br>- Dr. APJ Abdul Kalam')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('"Things can get out of a black hole both on the outside and possibly to another Universe. <br>So, If you feel you are in a black hole, don\'t give up - there\'s a way out" <br> - Stephen Hawking')
+    .pauseFor(2500)
+    .deleteChars(7)
+    .typeString('<strong>altered!</strong>')
+    .pauseFor(2500)
+    .start();
+
+
 // Map
 var mymap = L.map('map', {
     center: [23.8408767, 91.4214196],
@@ -30,7 +47,7 @@ $('#navbar a, .btn').on('click', function(event) {
 // Smooth Scrolling
 $(document).ready(function() {
     // Add smooth scrolling to all links
-    $("#navbar a, .btn").on('click', function(event) {
+    $("#navbar a").on('click', function(event) {
 
         if (this.hash !== "") {
             // Prevent default anchor click behavior
