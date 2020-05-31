@@ -10,7 +10,7 @@ typewriter.typeString('"If you want to shine like a sun, first burn like a sun."
     .typeString('"Things can get out of a black hole both on the outside and possibly to another Universe. <br>So, If you feel you are in a black hole, don\'t give up - there\'s a way out" <br> - Stephen Hawking')
     .pauseFor(2500)
     .deleteChars(7)
-    .typeString('<strong>altered!</strong>')
+    .typeString(' "only two things are infinite, the universe and human stupidity,<br> and I\'m not sure about the former."<br>- Albert Einstein.')
     .pauseFor(2500)
     .start();
 
